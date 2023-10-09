@@ -16,7 +16,8 @@ const config: Config = {
       colors: {
         'pink': '#cc2491',
         'pink-darker': '#d62096',
-        'sky': '#81d3f9'
+        'sky': '#81d3f9',
+        'prussian-blue': '#0b2c3c'
       }
     },
   },
