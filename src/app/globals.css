@@ -15,3 +15,7 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+
+.p-block-24 {
+  padding-block: 96px;
+}

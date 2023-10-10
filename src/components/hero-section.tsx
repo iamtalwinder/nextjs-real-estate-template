@@ -3,11 +3,11 @@ import Image from "next/image";
 
 export default function HeroSection() {
   return (
-    <section className="bg-gray-100 w-full">
-      <div className="mx-auto max-w-7xl flex flex-wrap items-center justify-between p-4 md:p-16 lg:p-24 gap-y-6">
-        <div className="w-full lg:w-1/2 mb-4 lg:mb-0 flex flex-col gap-y-4">
+    <section className="bg-gray-100 w-full p-block-24">
+      <div className="mx-auto max-w-7xl flex flex-wrap items-center justify-between px-4">
+        <div className="w-full lg:w-2/5 flex-grow mb-4 lg:mb-0 flex flex-col gap-y-4 lg:pr-24">
           <div className="flex items-center mb-2 mt-2 md:mt-0">
-            <HomeIcon className="lg:h-8 lg:w-8 h-6 w-6 text-pink mr-2" />
+            <HomeIcon className="lg:h-8 lg:w-8 h-6 w-6 text-primary mr-2" />
             <span className="text-sm text-center font-bold text-gray-800">
               Real Estate Agency
             </span>
@@ -22,18 +22,18 @@ export default function HeroSection() {
             journey seamless and stress-free.
           </p>
 
-          <button className="bg-pink-darker text-white py-2 px-4  hover:bg-white hover:text-pink-darker border border-pink-darker transition max-w-fit m-auto md:m-0">
+          <button className="bg-primary text-white py-2 px-4  hover:bg-white hover:text-primary border border-primary transition max-w-fit m-auto md:m-0">
             Make An Enquiry
           </button>
         </div>
 
-        <figure className="w-full lg:w-1/2">
+        <figure className="w-full lg:w-2/5 flex-grow pt-2 md:pt-0">
           <Image
             src="/hero-banner.png"
             alt="Modern house model"
             className="w-full"
-            height={300}
-            width={300}
+            height={700}
+            width={700}
           />
         </figure>
       </div>

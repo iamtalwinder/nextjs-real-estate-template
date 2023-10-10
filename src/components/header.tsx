@@ -53,18 +53,18 @@ export default function Header() {
       <div className="bg-prussian-blue text-sm">
         <div className=" text-white p-4 mx-auto max-w-7xl flex items-center md:justify-between justify-center gap-x-4 gap-y-2 flex-wrap">
           <div className="flex items-center space-x-4 hover:cursor-pointer">
-            <EnvelopeIcon className="lg:h-6 lg:w-6 h-4 w-4 text-pink" />
-            <p className="hover:text-pink">info@brand.com</p>
+            <EnvelopeIcon className="lg:h-6 lg:w-6 h-4 w-4 text-primary" />
+            <p className="hover:text-primary">info@brand.com</p>
           </div>
 
           <div className="hidden md:flex items-center space-x-4 hover:cursor-pointer">
-            <MapPinIcon className="lg:h-6 lg:w-6 h-4 w-4 text-pink" />
-            <p className="hover:text-pink">15/A, Nest Tower, NYC</p>
+            <MapPinIcon className="lg:h-6 lg:w-6 h-4 w-4 text-primary" />
+            <p className="hover:text-primary">15/A, Nest Tower, NYC</p>
           </div>
 
           <div className="flex items-center md:ml-auto space-x-4 hover:cursor-pointer">
-            <PhoneIcon className="lg:h-6 lg:w-6 h-4 w-4 text-pink" />
-            <p className="hover:text-pink">+1 234567089</p>
+            <PhoneIcon className="lg:h-6 lg:w-6 h-4 w-4 text-primary" />
+            <p className="hover:text-primary">+1 234567089</p>
           </div>
         </div>
       </div>
@@ -76,7 +76,7 @@ export default function Header() {
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
-            <p className="text-lg font-semibold leading-6 text-pink">Brand</p>
+            <p className="text-lg font-semibold leading-6 text-primary">Brand</p>
           </a>
         </div>
         <Popover.Group className="hidden lg:flex lg:gap-x-12">
@@ -107,7 +107,7 @@ export default function Header() {
                     >
                       <div className="flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
                         <item.icon
-                          className="h-6 w-6 text-gray-600 group-hover:text-pink"
+                          className="h-6 w-6 text-gray-600 group-hover:text-primary"
                           aria-hidden="true"
                         />
                       </div>
@@ -162,7 +162,7 @@ export default function Header() {
           </a>
           <a
             href=""
-            className="text-sm font-semibold leading-5 text-white bg-pink-darker rounded-lg py-2 px-4"
+            className="text-sm font-semibold leading-5 text-white bg-primary rounded-lg py-2 px-4"
           >
             Sign up
           </a>
@@ -189,7 +189,7 @@ export default function Header() {
           <div className="flex items-center justify-between">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-              <p className="text-lg font-semibold leading-6 text-pink ">
+              <p className="text-lg font-semibold leading-6 text-primary ">
                 Brand
               </p>
             </a>

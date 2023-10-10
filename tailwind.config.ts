@@ -17,7 +17,12 @@ const config: Config = {
         'pink': '#cc2491',
         'pink-darker': '#d62096',
         'sky': '#81d3f9',
-        'prussian-blue': '#0b2c3c'
+        'prussian-blue': '#0b2c3c',
+        'orange-soda': '#ff5a3d',
+        'dark-jungle-green': '#071a1d',
+        'misty-rose': '	#f5dedb',
+        'cadet': '#5d737e',
+        'primary': '#ff5a3d'
       }
     },
   },
