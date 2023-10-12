@@ -14,7 +14,7 @@ export default function HeroSection() {
           </div>
 
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Find Your Dream Property With Ease
+            Find Your Dream House With Ease
           </h2>
 
           <p className="text-gray-700 mb-4 border-l border-solid border-gray-500 text-md pl-4 -mt-4">

@@ -22,6 +22,8 @@ const config: Config = {
         'dark-jungle-green': '#071a1d',
         'misty-rose': '	#f5dedb',
         'cadet': '#5d737e',
+        'seashell': '#fff2f0',
+        'opal': '	#8bb1b1',
         'primary': '#ff5a3d'
       }
     },

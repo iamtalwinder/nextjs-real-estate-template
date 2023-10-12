@@ -6,6 +6,12 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+
+  --ff-nunito-sans: "Nunito Sans", sans-serif;
+  --ff-poppins: "Poppins", sans-serif;
+
+  --orange-soda: hsl(9, 100%, 62%);
+  --transition: 0.25s ease;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -19,3 +25,24 @@
 .p-block-24 {
   padding-block: 96px;
 }
+
+.h1,
+.h2,
+.h3 {
+  font-family: var(--ff-poppins);
+}
+
+.service-card:is(:hover, :focus) .card-link { color: var(--orange-soda); }
+
+.service-card::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 4px;
+  background: var(--orange-soda);
+  transition: var(--transition);
+}
+
+.service-card:is(:hover, :focus)::after { width: 100%; }
